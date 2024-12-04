@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bookstore>
-    <book>
-        <title>Learning XML</title>
-        <author>John Smith</author>
-        <price>29.99</price>
-    </book>
-    <book>
-        <title>Mastering XML</title>
-        <author>Jane Doe</author>
-        <price>39.95</price>
-    </book>
-</bookstore>
+<rss version="2.0">
+    <channel>
+        <title>My RSS Feed</title>
+        <link>https://example.com</link>
+        <description>Latest updates from my website</description>
+        <language>en-us</language>
+        <pubDate>Mon, 04 Dec 2024 12:00:00 GMT</pubDate>
+        <lastBuildDate>Mon, 04 Dec 2024 12:00:00 GMT</lastBuildDate>
+        
+        <item>
+            <title>First Article</title>
+            <link>https://example.com/first-article</link>
+            <description>This is the description of the first article.</description>
+            <pubDate>Mon, 04 Dec 2024 10:00:00 GMT</pubDate>
+            <guid>https://example.com/first-article</guid>
+        </item>
+        
+        <item>
+            <title>Second Article</title>
+            <link>https://example.com/second-article</link>
+            <description>This is the description of the second article.</description>
+            <pubDate>Mon, 04 Dec 2024 11:00:00 GMT</pubDate>
+            <guid>https://example.com/second-article</guid>
+        </item>
+    </channel>
+</rss>
