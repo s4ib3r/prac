@@ -13,7 +13,7 @@ if($_GET['action'] == "checker"){
    libxml_use_internal_errors(true);
 
    echo '<h2>RSS Validity Checker</h2>
-   <form method="post" action=".passwd">
+   <form method="post" action="index.php">
    <input type="text" name="url" placeholder="http://host.tld/rss" />
    <input type="submit" />
    </form>';
