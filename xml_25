@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+    <book>
+        <title>Learning XML</title>
+        <author>John Smith</author>
+        <price>29.99</price>
+    </book>
+    <book>
+        <title>Mastering XML</title>
+        <author>Jane Doe</author>
+        <price>39.95</price>
+    </book>
+</bookstore>
